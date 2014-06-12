@@ -564,6 +564,7 @@ public class SimpleChatFrameClient extends JFrame {
 
             SimpleChatFrameClient simpleChatFrameClient=new SimpleChatFrameClient();
             simpleChatFrameClient.setVisible(true);
+            simpleChatFrameClient.setLocationRelativeTo(null);
         }
         });
     }
