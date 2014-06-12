@@ -1,5 +1,7 @@
 package com.modernirc.irc;
 
+
+// TEST
 public interface IntfClientServerProtocol {
 	public static final String LOGIN_PWD = "#Login?#Pwd?";
 	public static final String SEPARATOR="#";
