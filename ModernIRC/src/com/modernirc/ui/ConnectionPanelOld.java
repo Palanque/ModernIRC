@@ -12,7 +12,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 
-public class ConnectionPanel extends JPanel {
+public class ConnectionPanelOld extends JPanel {
 
     /**
 	 * 
@@ -40,7 +40,7 @@ public class ConnectionPanel extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public ConnectionPanel() {
+	public ConnectionPanelOld() {
 	
 	
 	    JPanel connectionPanel = new JPanel(false);

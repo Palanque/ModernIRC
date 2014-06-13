@@ -47,7 +47,7 @@ public class SimpleChatClientApp {
 	    Style styleBI = res.getStyle(BOLD_ITALIC);
 	    StyleConstants.setBold(styleBI, true);
 	    StyleConstants.setItalic(styleBI, true);
-	    StyleConstants.setForeground(styleBI, Color.black);	    
+	    StyleConstants.setForeground(styleBI, Color.white);	    
 
 	    res.addStyle(GRAY_PLAIN, styleDefault);
         Style styleGP = res.getStyle(GRAY_PLAIN);
@@ -119,7 +119,7 @@ public class SimpleChatClientApp {
 	}
 	
     void displayConnectionDialog() {
-    	ConnectionPanel connectionPanel=new ConnectionPanel();
+    	ConnectionPanelOld connectionPanel=new ConnectionPanelOld();
 		if (JOptionPane.showOptionDialog(null, connectionPanel, ConnectTitle,
 				JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE,
 				null, ConnectOptionNames, ConnectOptionNames[0]) == 0) {

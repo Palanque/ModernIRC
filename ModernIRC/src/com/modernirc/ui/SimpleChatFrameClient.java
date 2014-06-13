@@ -54,7 +54,7 @@ public class SimpleChatFrameClient extends JFrame {
     private javax.swing.JLabel maximizeButton;
     private javax.swing.JLabel minimizeButton;
     private javax.swing.JLabel modernIRCIcon;
-    private javax.swing.JPanel oarngePanel;
+    private javax.swing.JPanel orangePanel;
     private javax.swing.JLabel openChatRoomLabel;
     private javax.swing.JLabel parametreLabel;
 	private static Document documentModel;
@@ -124,7 +124,7 @@ public class SimpleChatFrameClient extends JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        oarngePanel = new javax.swing.JPanel();
+        orangePanel = new javax.swing.JPanel();
         applicationTitleLabel = new javax.swing.JLabel();
         parametreLabel = new javax.swing.JLabel();
         aideLabel = new javax.swing.JLabel();
@@ -176,10 +176,10 @@ public class SimpleChatFrameClient extends JFrame {
 
         jPanel1.setBackground(new java.awt.Color(50, 50, 50));
 
-        oarngePanel.setBackground(new java.awt.Color(0, 186, 255));
+        orangePanel.setBackground(new java.awt.Color(0, 186, 255));
 
-        javax.swing.GroupLayout oarngePanelLayout = new javax.swing.GroupLayout(oarngePanel);
-        oarngePanel.setLayout(oarngePanelLayout);
+        javax.swing.GroupLayout oarngePanelLayout = new javax.swing.GroupLayout(orangePanel);
+        orangePanel.setLayout(oarngePanelLayout);
         oarngePanelLayout.setHorizontalGroup(
             oarngePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 12, Short.MAX_VALUE)
@@ -393,7 +393,7 @@ public class SimpleChatFrameClient extends JFrame {
                         .addGap(30, 30, 30)
                         .addComponent(channelChangeLabel))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(oarngePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(orangePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(channelLabel)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -450,7 +450,7 @@ public class SimpleChatFrameClient extends JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(channelChangeLabel)
                             .addComponent(openChatRoomLabel)))
-                    .addComponent(oarngePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(orangePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
